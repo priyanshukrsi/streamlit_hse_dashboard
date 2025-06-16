@@ -1,6 +1,6 @@
 @echo off
-call "C:\Users\priya\miniconda3\Scripts\activate.bat"
+call "path to activate.bat"
 call conda activate base
-cd /d "C:\Users\priya\Desktop\github_projects\Streamlit HSE Dashboard\app.py"
+cd /d "path to app.py"
 streamlit run app.py
 pause
